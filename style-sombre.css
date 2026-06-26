@@ -1,0 +1,30 @@
+/* =====================================================================
+   SOURCE ISABEE - Theme sombre (complement)
+
+   Charge UNIQUEMENT en plus de style.css (jamais a sa place), et
+   seulement pour les utilisateurs ayant choisi "Theme sombre" dans
+   Parametres > Preferences. Redefinit les memes variables CSS que
+   style.css : toutes les regles deja definies (cartes, boutons,
+   sidebar...) s'adaptent automatiquement, sans aucune duplication.
+   ===================================================================== */
+
+:root {
+    --couleur-primaire-foncee: #3B82F6;
+    --couleur-primaire: #60A5FA;
+    --couleur-fond: #0F172A;
+    --couleur-bordure: #334155;
+    --couleur-carte: #1E293B;
+    --couleur-texte: #F1F5F9;
+    --couleur-texte-secondaire: #94A3B8;
+    --ombre-legere: 0 1px 3px rgba(0, 0, 0, 0.45), 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.etiquette-statut.etiquette-valide {
+    background-color: #064E3B;
+    color: #6EE7B7;
+}
+
+.etiquette-statut.etiquette-rejete {
+    background-color: #7F1D1D;
+    color: #FCA5A5;
+}
